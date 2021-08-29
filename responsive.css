@@ -1,0 +1,163 @@
+@media (max-width:1200px) {
+    .hdr-navbar ul li a {
+        margin: 0 4px !important;
+        font-size: 15px !important;
+    }
+}
+@media (max-width:992px) {
+    .hdr-navbar ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        z-index:1;
+        position: relative;
+    }
+    .hdr-navbar{
+        position: relative;
+    }
+    .hdr-navbar span {
+        display: block !important;
+        font-size:37px;
+        position: absolute;
+        top: 15px;
+        right: 0;
+        color:#ba202c;
+        cursor: pointer;
+    }
+    .hdr-navbar .check:checked ~ ul {
+        opacity: 1;
+        visibility: visible;
+        height: 100vh;
+        background: #fff;
+        width: 100%;
+        position: absolute;
+        right: -147px;
+        top: 85px;
+    }
+    .hdr-navbar ul li {
+        display: block;
+        text-align: center;
+        padding:13px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+    }
+    .three-dot{
+        position: relative;
+        pointer-events: none
+    }
+    .check {
+        position: absolute;
+        top: 27px;
+        right: 1px;
+        display: block;
+        width: 35px;
+        height: 35px;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .hdr-navbar ul li a{
+        margin: 0;
+        font-size:16px !important;
+    }
+    .banner-section {
+        z-index: -11;
+    }
+    .three-dot i{
+        width: 35px;
+        height: 35px;
+    }
+    .cyber-details-hdr {
+        margin-bottom: 35px;
+    }
+    .cyber-details-all-text p {
+        margin-bottom: 35px;
+    }
+    .cyber-details-hdr h2 {
+        margin-bottom: 40px;
+    }
+    .cyber-details-all-text p {
+        margin-top: 35px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width:768px){
+    .banner-section img {
+        height: 500px;
+    }
+    .a-text {
+        font-size: 18px;
+    }
+    .gmail_pc{
+        opacity: 0;
+        visibility: hidden; 
+    }
+    .hdr-navbar .check:checked ~ ul {
+        right: -125px; 
+    }
+}
+@media (max-width:600px) {
+    .hdr-navbar .check:checked ~ ul {
+        right: -42px;
+    }
+}
+@media (max-width:576px){
+    .hdr-navbar {
+        position: inherit;
+    }
+    .hdr-navbar .check:checked ~ ul {
+        right: 0px;
+    }
+    .hdr-navbar span {
+        right: 21px;
+    }
+    .check {
+        right: 21px;
+    }
+    .banner-section img {
+        height: 380px;
+    }
+    .container{
+        width: 96%;
+    }
+    .banner-text h5 {
+        position: absolute;
+        top: 195px;
+        left: 27px;
+        color: #fff;
+        font-size: 18px;
+        line-height: 33px;
+        font-family: 'Hind Siliguri', sans-serif;
+    }
+    .gmail_pc{
+        opacity: 0;
+        visibility: hidden; 
+    }
+}
+
+@media (max-width:360px){
+    .banner-text h5{
+        display: none;
+    }
+    .footer-logo img {
+        width: 330px;
+    }
+    .contact-way-image img {
+        width: 335px;
+    }
+    .cyber-protection-img img {
+        height: 400px;
+    }
+    .cyber-details-hdr h2 {
+        margin-bottom:0;
+    }
+    .cyber-details-hdr {
+        margin-bottom:0;
+    }
+    .cyber-details {
+        padding-top: 50px;
+    }
+    .gmail_pc{
+        opacity: 0;
+        visibility: hidden; 
+    }
+}
